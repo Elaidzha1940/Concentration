@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,55 +17,105 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIz-hb-U4A">
-                                <rect key="frame" x="10" y="69" width="92" height="117"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIz-hb-U4A">
+                                <rect key="frame" x="85" y="140" width="100" height="124"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="92" id="35p-D3-KFj"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="117" id="KRc-6d-ib2"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="92" id="hB9-Hw-V2N"/>
-                                    <constraint firstAttribute="height" constant="117" id="stU-hy-xT3"/>
+                                    <constraint firstAttribute="width" constant="100" id="CHT-mh-c0P"/>
+                                    <constraint firstAttribute="height" constant="124" id="S3t-DB-dTh"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <buttonConfiguration key="configuration" style="plain" title="👻" titleAlignment="trailing">
-                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="50"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="306-Sl-3fW"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GbC-ED-sBQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIS-QX-f8m">
-                                <rect key="frame" x="136" y="69" width="92" height="117"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loi-A1-hRe">
+                                <rect key="frame" x="227" y="189" width="100" height="117"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="92" id="5VB-BG-J16"/>
-                                    <constraint firstAttribute="height" constant="117" id="88M-Uu-z7S"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="117" id="e2x-Bo-haQ"/>
-                                    <constraint firstAttribute="width" constant="92" id="jP5-Yy-oWQ"/>
+                                    <constraint firstAttribute="width" constant="100" id="o42-IU-Fxl"/>
+                                    <constraint firstAttribute="height" constant="117" id="uZy-un-hCy"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <buttonConfiguration key="configuration" style="plain" title="🎃" titleAlignment="trailing">
-                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="50"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cwf-zr-rOE"/>
-                                    <action selector="touchSecondCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RRE-oO-pRa"/>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMZ-DA-aWn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5b-VP-dQD">
+                                <rect key="frame" x="227" y="369" width="100" height="117"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="uGn-XG-ada"/>
+                                    <constraint firstAttribute="width" constant="100" id="uY6-5f-dea"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WpJ-oX-n1F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpQ-Ry-5Ri">
+                                <rect key="frame" x="85" y="328" width="100" height="117"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="qDX-JH-dKx"/>
+                                    <constraint firstAttribute="width" constant="100" id="w6p-cT-M6t"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssK-pe-mvT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S1-rv-Glu">
+                                <rect key="frame" x="204.66666666666666" y="736" width="122.33333333333334" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="opn-Pz-Nlb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="cIz-hb-U4A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="JeC-1f-k7d"/>
-                            <constraint firstItem="mIS-QX-f8m" firstAttribute="leading" secondItem="cIz-hb-U4A" secondAttribute="trailing" constant="34" id="M3g-hS-4T1"/>
-                            <constraint firstItem="cIz-hb-U4A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="b17-VB-1iN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mIS-QX-f8m" secondAttribute="bottom" constant="632" id="uze-9v-TXS"/>
+                            <constraint firstItem="M5b-VP-dQD" firstAttribute="top" secondItem="Loi-A1-hRe" secondAttribute="bottom" constant="63" id="0XT-fk-pCa"/>
+                            <constraint firstItem="KpQ-Ry-5Ri" firstAttribute="top" secondItem="cIz-hb-U4A" secondAttribute="bottom" constant="64" id="2xF-yj-Lhe"/>
+                            <constraint firstItem="cIz-hb-U4A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="5GB-3i-5ef"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5S1-rv-Glu" secondAttribute="bottom" constant="11" id="60m-mu-F8s"/>
+                            <constraint firstItem="M5b-VP-dQD" firstAttribute="leading" secondItem="KpQ-Ry-5Ri" secondAttribute="trailing" constant="42" id="9id-HE-fVJ"/>
+                            <constraint firstItem="5S1-rv-Glu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="Hzm-8u-76u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M5b-VP-dQD" secondAttribute="trailing" constant="66" id="YHR-pD-RHm"/>
+                            <constraint firstItem="M5b-VP-dQD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="369" id="aM7-5M-QfN"/>
+                            <constraint firstItem="M5b-VP-dQD" firstAttribute="leading" secondItem="Loi-A1-hRe" secondAttribute="leading" id="anO-WX-rI0"/>
+                            <constraint firstItem="cIz-hb-U4A" firstAttribute="leading" secondItem="KpQ-Ry-5Ri" secondAttribute="leading" id="tKE-NY-BeA"/>
+                            <constraint firstItem="M5b-VP-dQD" firstAttribute="trailing" secondItem="5S1-rv-Glu" secondAttribute="trailing" id="wgD-R3-oQ9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="flipCountLabel" destination="5S1-rv-Glu" id="4hk-79-hZm"/>
+                        <outletCollection property="cardButtons" destination="cIz-hb-U4A" collectionClass="NSMutableArray" id="Jta-bH-d7P"/>
+                        <outletCollection property="cardButtons" destination="cIz-hb-U4A" collectionClass="NSMutableArray" id="t7r-xU-Wtm"/>
+                        <outletCollection property="cardButtons" destination="KpQ-Ry-5Ri" collectionClass="NSMutableArray" id="Hlv-nj-Hl0"/>
+                        <outletCollection property="cardButtons" destination="Loi-A1-hRe" collectionClass="NSMutableArray" id="lsc-q4-qs6"/>
+                        <outletCollection property="cardButtons" destination="M5b-VP-dQD" collectionClass="NSMutableArray" id="eZQ-WO-xy0"/>
+                        <outletCollection property="cardButtons" destination="M5b-VP-dQD" collectionClass="NSMutableArray" id="st4-3r-a2U"/>
+                        <outletCollection property="cardButtons" destination="cIz-hb-U4A" collectionClass="NSMutableArray" id="xAO-fF-dhf"/>
+                        <outletCollection property="cardButtons" destination="KpQ-Ry-5Ri" collectionClass="NSMutableArray" id="px8-BQ-A62"/>
+                        <outletCollection property="cardButtons" destination="Loi-A1-hRe" collectionClass="NSMutableArray" id="xsz-M3-xb5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-74.045801526717554" y="7.746478873239437"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
